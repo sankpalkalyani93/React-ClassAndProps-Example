@@ -1,9 +1,0 @@
-Explanation
-Parent Component (App):
-  1. The App component is a functional component that uses the useState hook to manage the state of the input numbers (num1 and num2) and the result (sum).
-  2. It defines event handlers (handleNum1Change and handleNum2Change) to update the state when the user inputs values.
-  3. The calculateSum function computes the sum of num1 and num2 and updates the sum state.
-  4. The component renders two input fields, a button to trigger the summation, and the SumDisplay child component, passing the sum as a prop.
-
-Child Component (SumDisplay):
-  1. The SumDisplay component is a functional component that accepts props as an argument and displays the sum received from the parent component.
